@@ -9,7 +9,7 @@ node {
 		
 	}
 	stage("validate format") {
-		sh 'terraform fmt -check=false'	
+		sh 'terraform fmt -check=true'	
 	}	
 	
 }
